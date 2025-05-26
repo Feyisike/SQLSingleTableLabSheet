@@ -13,8 +13,8 @@ VALUES (3, Peter, Harriet, Parrot, M, 2, 2021-01-31, 2024-12-14);
 
 INSERT INTO pets(petID, name, owner, species, sex, checkups, birth, death)
 VALUES (4, Bella, Ray, Goldfish, F, 1, 2022-03-01, 2024-03-01);
-.SCHEMA
-.TABLE
+--.SCHEMA
+--.TABLE
 -- SQLBook: Code
 SELECT * FROM pets;
 -- SQLBook: Code
