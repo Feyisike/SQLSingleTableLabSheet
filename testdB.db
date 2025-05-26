@@ -1,0 +1,7 @@
+CREATE DATABASE testdB;
+CREATE TABLE pet (name VARCHAR(20), owner VARCHAR(20), species VARCHAR(20), sex CHAR(1), checkups INT, birth DATE, death DATE);
+INSERT INTO pet (name, owner, species, sex, checkups, birth,death)
+VALUES (Bruno, Feyi, Dog, F, 5, 20/5/2021, 26/05/2025);
+
+INSERT INTO pet (name, owner, species, sex, checkups, birth,death)
+VALUES (Athena, Jack, Cat, M, 2, 16/1/2021, 04/02/2024);
