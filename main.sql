@@ -1,13 +1,5 @@
--- SQLBook: Code
 
--- Single Table Lab Sheet
-
---CREATE TABLE pets (name VARCHAR(20), owner VARCHAR(20), species VARCHAR(20), sex CHAR(1), checkups INT, birth DATE, death DATE);
-
---.SCHEMA
---.TABLE
-
---CREATE DATABASE testdB;
+CREATE DATABASE testdB;
 CREATE TABLE testdB.pets (name VARCHAR(20), owner VARCHAR(20), species VARCHAR(20), sex CHAR(1), checkups INT, birth DATE, death DATE);
 
 INSERT INTO testdB.pets (name, owner, species, sex, checkups, birth, death)
@@ -24,5 +16,6 @@ SELECT * FROM testdB.pets;
 
 -- SQLBook: Code
 SELECT * FROM testdB.pets WHERE species = 'Dog';
-SCHEMA testdB.pets;
+.schema 
+.table
 -- SQLBook: Code
