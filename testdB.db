@@ -5,4 +5,4 @@ INSERT INTO pet (name, owner, species, sex, checkups, birth,death)
 VALUES (Bruno, Feyi, Dog, F, 5, 20/5/2021, 26/05/2025);
 
 INSERT INTO pet (name, owner, species, sex, checkups, birth,death)
-VALUES (Athena, Jack, Cat, M, 2, 16/1/2021, 04/02/2024);
+VALUES (Athena, Jack, Cat, M, 2, 16/1/2021, 14/2/2024);
