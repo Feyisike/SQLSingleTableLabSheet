@@ -10,12 +10,17 @@ VALUES (2, Athena, Jack, Cat, M, 2, 2021-01-16, 2024-02-14);
 
 INSERT INTO pets (petID, name, owner, species, sex, checkups, birth, death)
 VALUES (3, Peter, Harriet, Parrot, M, 2, 2021-01-31, 2024-12-14);
+
+INSERT INTO pets(petID, name, owner, species, sex, checkups, birth, death)
+VALUES (4, Bella, Ray, Goldfish, F, 1, 2022-03-01, 2024-03-01);
+.SCHEMA
+.TABLE
 -- SQLBook: Code
 SELECT * FROM pets;
 -- SQLBook: Code
 
 -- SQLBook: Code
 SELECT * FROM pets WHERE species = 'Dog';
-.schema 
-.table
+--.schema 
+--.table
 -- SQLBook: Code
