@@ -1,5 +1,5 @@
 
-CREATE DATABASE animals ;
+CREATE DATABASE animals;
 CREATE TABLE animals.pets (petID INT PRIMARY KEY, name VARCHAR(20), owner VARCHAR(20), species VARCHAR(20), sex CHAR(1), checkups INT, birth DATE, death DATE);
 
 INSERT INTO animals.pets (petID, name, owner, species, sex, checkups, birth, death)
@@ -21,6 +21,7 @@ SELECT * FROM animals.pets;
 
 -- SQLBook: Code
 SELECT * FROM animals.pets WHERE species = 'Dog';
+SHOW TABLE animals.pets;
 --.schema 
 --.table
 -- SQLBook: Code
