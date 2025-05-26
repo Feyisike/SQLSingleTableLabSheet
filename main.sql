@@ -24,4 +24,5 @@ SELECT * FROM testdB.pets;
 
 -- SQLBook: Code
 SELECT * FROM testdB.pets WHERE species = 'Dog';
-SCHEMA pets;
+SCHEMA testdB.pets;
+-- SQLBook: Code
