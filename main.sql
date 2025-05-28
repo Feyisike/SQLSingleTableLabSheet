@@ -1,3 +1,4 @@
+-- Active: 1748403138611@@127.0.0.1@3306
 
 CREATE DATABASE pets_db;
 CREATE TABLE pets (petID INT PRIMARY KEY, name VARCHAR(20), owner VARCHAR(20), species VARCHAR(20), sex CHAR(1), checkups INT, birth DATE, death DATE);
