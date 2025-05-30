@@ -1,10 +1,10 @@
 -- Active: 1748403138611@@127.0.0.1@3306
 
-CREATE DATABASE pets_db;
+ --USE DATABASE animals;
 CREATE TABLE pets (petID INT PRIMARY KEY, name VARCHAR(20), owner VARCHAR(20), species VARCHAR(20), sex CHAR(1), checkups INTEGER, birth DATE, death DATE);
 
 INSERT INTO pets (petID, name, owner, species, sex, checkups, birth, death)
-VALUES (1, Bruno, Feyi, Dog, F, 5, 2021-05-21, 2025-05-26);
+VALUES (1, 'Bruno', 'Feyi', 'Dog', 'F', 5, 2021-05-21, 2025-05-26);
 
 INSERT INTO pets (petID, name, owner, species, sex, checkups, birth, death)
 VALUES (2, Athena, Jack, Cat, M, 2, 2021-01-16, 2024-02-14);

@@ -1,0 +1,22 @@
+CREATE TABLE pets (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    owner TEXT NOT NULL,
+    species TEXT NOT NULL,
+    sex VARCHAR(1) NOT NULL,
+    checkups INTEGER NOT NULL,
+    birth DATE NOT NULL,
+    death DATE
+);
+INSERT INTO pets (name, owner, species,sex, checkups, birth, death) VALUES
+('Fido', 'Alice', 'Dog', 'M', 5, '2015-01-01', NULL),
+('Whiskers', 'Bob', 'Cat', 'F', 3, '2016-06-15', NULL),
+('Goldie', 'Charlie', 'Fish', 'M', 2, '2018-03-20', NULL),
+('Max', 'Alice', 'Dog', 'M', 4, '2017-11-30', NULL),
+('Mittens', 'Bob', 'Cat', 'F', 1, '2019-05-10', NULL);
+--CREATE INDEX idx_species ON pets (species);
+--CREATE INDEX idx_owner ON pets (owner);
+--CREATE INDEX idx_birth ON pets (birth);
+--CREATE INDEX idx_death ON pets (death);
+--CREATE INDEX idx_checkups ON pets (checkups);
+--CREATE INDEX
