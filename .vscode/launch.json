@@ -13,3 +13,9 @@
         }
     ]
 }
+// This file is used to configure the Db2 Developer Extension for debugging stored procedures.
+// The configuration allows you to launch the debugger for a stored procedure in Db2.
+// The "program" attribute specifies the file to debug, which is set to the currently open file in the editor.
+// The "type" attribute specifies the type of debugger to use, which is set to "db2DevExtSqlSpDbg".
+// The "request" attribute specifies the type of request, which is set to "launch".
+// The "name" attribute specifies the name of the configuration, which is set to "Db2 Developer Extension Stored Procedure Debug".
